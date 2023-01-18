@@ -19,7 +19,7 @@
           h-full
         "
       >
-        <div class="h-auto self-center">
+        <div class="col-span-2 md:col-span-1 h-auto self-center">
           <span class="font-serif text-xl font-bold italic"
             >Your space, your legacy, your website. </span
           >Websites are for everyone, from large companies to solo
@@ -59,6 +59,8 @@
             :strength="10"
             type="depth"
             class="
+              col-span-1
+              md:col-span-2
               w-full
               h-full
               bg-gray-600

@@ -3,7 +3,7 @@
     <div class="grid text-center">
       <div
         class="h-full mt-10 font-sans font-semibold text-3xl"
-        data-aos="fade-left"
+        data-aos="fade-down"
       >
         <h2>Ready to start your journey? Send me a message below!</h2>
       </div>

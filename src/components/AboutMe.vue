@@ -1,5 +1,5 @@
 <template>
-  <div class="text-black py-4">
+  <div class="text-black py-4 w-screen">
     <div
       class="
         grid grid-flow-row

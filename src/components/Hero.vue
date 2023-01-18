@@ -26,6 +26,8 @@
         v-for="section in sections"
         :key="section.name"
         class="
+          hidden
+          md:block
           text-sm
           my-0.5
           hover:underline

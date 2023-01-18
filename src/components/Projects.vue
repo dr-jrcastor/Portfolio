@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen text-center text-black">
+  <div class="min-h-screen text-center text-black overscroll-y-auto">
     <div class="mx-auto py-4">
       <div class="my-4">
         <h2 class="font-sans font-semibold text-3xl">Previous Works</h2>
@@ -12,7 +12,6 @@
           snap-y snap-mandatory
           h-screen
           overflow-auto
-          overscroll-auto
           scroll-smooth
           bg-neutral-900
         "
@@ -26,10 +25,11 @@
             text-black text-center
             relative
             p-10
-            snap-center
+            snap-center snap-always
             scroll-mt-4
             shrink-0
             border-4
+            overflow-hidden
           "
         >
           <img
@@ -48,7 +48,6 @@
               ease-in-out
               duration-700
               object-cover
-              overflow-hidden
             "
           />
           <div
@@ -89,22 +88,24 @@
               </div>
             </div>
             <div>
-              <button
-                class="
-                  text-sm
-                  w-fit
-                  px-4
-                  py-2
-                  border
-                  rounded
-                  text-white/50
-                  hover:text-white hover:scale-110
-                  transition
-                  duration-200
-                "
-              >
-                Read More
-              </button>
+              <router-link :to="project.page">
+                <button
+                  class="
+                    text-sm
+                    w-fit
+                    px-4
+                    py-2
+                    border
+                    rounded
+                    text-white/50
+                    hover:text-white hover:scale-110 hover:bg-neutral-600/70
+                    transition
+                    duration-200
+                  "
+                >
+                  Read More
+                </button>
+              </router-link>
             </div>
           </div>
         </div>
@@ -114,8 +115,6 @@
 </template>
 
 <script>
-import PGHAnes from "/PGH_Anes.jpg";
-
 export default {
   name: "Projects",
   data() {
@@ -130,6 +129,7 @@ export default {
           blurb:
             "The Department's official website that serves as their way to communicate to the general public as well as their own members. This project came with a custom content management system that is used by the Department's administrators to this day.",
           madewith: "Made with: HTML5, CSS, JS, with Vue.js and Laravel",
+          page: "/pgh-anes",
         },
         {
           id: "Nesabel Online",
@@ -139,6 +139,7 @@ export default {
           blurb:
             "An e-commerce platform serving tens of thousands of products to thousands of customers from all over Metro Manila and parts of Central Luzon daily. Initially solely a brick-and-mortar store, Nesabel Online has become a significant stream of revenue for the company.",
           madewith: "Made with: Shopify/Liquid, HTML5, CSS3, JS",
+          page: "/nesabel",
         },
         {
           id: "PGH Procs",
@@ -148,6 +149,7 @@ export default {
           blurb:
             "A non-profit online platform for the employees and students of the Philippine General Hospital, the country's largest training hospital. It contains over a hundred tutorials on various tasks that a medical intern, clerk, or student is expected to encounter in their respective rotations in the hospital. As of writing, it has helped over 240 personnel navigate the university hospital and provide the best care to its patients.",
           madewith: "Made with: HTML5, CSS3, JS, Vue.js and Laravel",
+          page: "/pgh-procs",
         },
       ],
     };
