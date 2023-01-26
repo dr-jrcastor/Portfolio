@@ -1,12 +1,12 @@
 <template>
   <Slide :closeOnNavigation="true">
-    <div class="flex flex-col text-white gap-8 font-thin">
+    <div class="flex flex-col gap-8 font-thin text-white">
       <router-link
         to="/"
         class="
-          hover:underline hover:scale-105 hover:font-normal
+          hover:text-blue-300 hover:translate-x-4 hover:font-normal
           transition-all
-          duration-500
+          duration-200
           ease-out
         "
         >Home</router-link
@@ -17,52 +17,15 @@
         :id="section.name"
         :href="section.link"
         class="
-          hover:underline hover:scale-105 hover:font-normal
+          hover:translate-x-4 hover:font-normal hover:text-blue-300
           transition-all
-          duration-500
+          duration-200
           ease-out
         "
       >
         <span>{{ section.name }}</span>
       </a>
     </div>
-
-    <!-- <div
-      class="
-        md:flex
-        flex-col
-        p-3
-        text-center
-        mx-auto
-        z-10
-        text-gray-200
-        font-thin
-        mt-4
-        hidden
-      "
-    >
-      <div
-        v-for="section in sections"
-        :key="section.name"
-        class="
-          text-sm
-          my-0.5
-          hover:underline
-          hover:scale-125
-          hover:font-normal
-          hover:bg-neutral-900/70
-          transition-all
-          duration-500
-          ease-out
-          text-white
-          cursor-pointer
-        "
-      >
-        <a href="#" @click.prevent="goSection(section.link)">
-          {{ section.name }}
-        </a>
-      </div>
-    </div> -->
   </Slide>
 </template>
 
@@ -144,6 +107,7 @@ export default {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.5);
 }
+
 .bm-item-list {
   color: #b8b7ad;
   margin-left: 10%;

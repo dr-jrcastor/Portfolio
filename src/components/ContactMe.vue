@@ -2,7 +2,7 @@
   <div class="grid place-content-center text-black h-fit pt-4 bg-slate-200">
     <div class="grid text-center">
       <div
-        class="h-full mt-10 font-sans font-semibold text-3xl"
+        class="h-full mt-10 font-sans font-semibold text-3xl break-words"
         data-aos="fade-down"
       >
         <h2>Ready to start your journey? Send me a message below!</h2>
