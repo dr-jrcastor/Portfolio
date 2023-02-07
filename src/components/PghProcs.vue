@@ -2,16 +2,22 @@
   <div v-cloak>
     <div class="mx-8 lg:mx-24 my-24 lg:my-24 font-extralight">
       <div class="mt-24 lg:mt-48 mb-24">
-        <h1 class="font-medium text-5xl lg:text-8xl">PGH Procs</h1>
+        <h1 class="font-medium text-5xl lg:text-9xl">PGH Procs</h1>
         <div class="my-8 text-center text-3xl">
-          A <span class="font-light">world-class and modern website</span> for a
-          <span class="font-light"> world-class and modern department </span>.
+          A
+          <span class="font-light"
+            >simple side-project that became the central information hub</span
+          >
+          for the country's
+          <span class="font-light"> premiere university hospital</span>.
         </div>
         <div class="my-8 text-center text-2xl">
-          The Department of Anesthesiology of the Philippine General Hospital
-          wanted a refurbishment of their old website to a more professional,
-          modern, and feature-filled website that clearly reflects the state of
-          the department.
+          Catering to over 600,000 patients per year, the hospital's work force,
+          which consisted of students and government employees are faced with a
+          daunting number of tasks to carry out. An efficient and easy-to-use
+          platform where employees and students can exchange information
+          regarding procedures and paperwork in the hospital would help ease
+          this burden.
         </div>
       </div>
       <kinesis-container
@@ -24,7 +30,7 @@
           axis="x"
           :maxX="10"
         >
-          <img src="/PGH_Anes.jpg" alt="" />
+          <img src="/PGH_Procs.jpg" alt="" />
         </kinesis-element>
         <kinesis-element
           :maxX="1"
@@ -42,19 +48,16 @@
           :strength="20"
           axis="x"
         >
-          They asked for a website that was primarily geared toward the public
-          where they can share the latest happenings and projects of the
-          department. Additionally, they also wanted a segment that only current
-          members and alumni could access, where they planned to share quizzes,
-          procedure and conference schedules, and the like.
+          A website was built on top of an existing telegram channel, providing
+          additional functions such as a search, voting, and commenting
+          capabilities to the articles. Users were also able to submit their own
+          entries to help other students and employees!
           <br />
           <br />
           The front-end was made with Vue.js, the progressive Javascript
-          Framewowrk, while the back-end was made with Laravel, a
-          model-view-controller PHP framework. The design was made in close
-          coordination with the deparmtnet heads and their website team. After
-          thorough consultation and revisions, we settled on a design that was
-          clean, crisp, and accomplished all their goals and more!
+          Framework, while the back-end was made with Laravel, a
+          model-view-controller PHP framework. The design was made with the
+          thought of simplicity and ease-of-use in mind.
         </kinesis-element>
       </kinesis-container>
       <kinesis-container
@@ -72,7 +75,7 @@
           :strength="50"
           axis="x"
         >
-          <img src="/PGH_Anes_Admin.jpg" alt="PGH Anesthesiology Admin" />
+          <img src="/PGH_Procs_article.jpg" alt="PGH Anesthesiology Admin" />
         </kinesis-element>
         <kinesis-element
           class="
@@ -89,13 +92,10 @@
           :strength="-30"
           axis="x"
         >
-          To keep up with a dynamic and ever-changing Department, it was
-          important that the contents of the website could be edited with ease.
-          Thus, we set out to create a custom content management system for the
-          client. A clear plan on the content they wish to publish and items
-          they wanted to have changed was first made, and then developed into a
-          beautiful, easy-to-navigate interface that could be easily taught to
-          future team members.
+          In just a month, the user base grew from just 10 to over 240
+          personnel. This has saved thousands of hours to the hospital's work
+          force, allowing prompt assistance and provision of care to the
+          patients of the hospital.
         </kinesis-element>
       </kinesis-container>
       <kinesis-container event="scroll" class="my-32 lg:my-16 flex flex-wrap">
@@ -113,12 +113,12 @@
           axis="x"
         >
           <img
-            src="/Anes_admin_mobile.jpg"
+            src="/PGH_Procs_article_mobile.jpg"
             alt="PGH Anesthesiology Admin Mobile Version"
             class="w-5/12 rounded-lg"
           />
           <img
-            src="/Anes_mobile.jpeg"
+            src="/PGH_Procs_backend.jpg"
             alt="PGH Anesthesiology Mobile Version"
             class="w-5/12 rounded-lg"
           />

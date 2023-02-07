@@ -2,16 +2,20 @@
   <div v-cloak>
     <div class="mx-8 lg:mx-24 my-24 lg:my-24 font-extralight">
       <div class="mt-24 lg:mt-48 mb-24">
-        <h1 class="font-medium text-5xl lg:text-8xl">Nesabel Online</h1>
+        <h1 class="font-medium text-5xl lg:text-9xl">Nesabel Online</h1>
         <div class="my-8 text-center text-3xl">
-          A <span class="font-light">world-class and modern website</span> for a
-          <span class="font-light"> world-class and modern department </span>.
+          Bringing a
+          <span class="font-light"> family brick-and-mortar grocery</span> to
+          immensely more customers and greater heights.
         </div>
         <div class="my-8 text-center text-2xl">
-          The Department of Anesthesiology of the Philippine General Hospital
-          wanted a refurbishment of their old website to a more professional,
-          modern, and feature-filled website that clearly reflects the state of
-          the department.
+          Nesabel Corporation, a family-owned retail and wholesale grocery,
+          needed to provide its customers a way to buy their goods without
+          leaving their homes. At the height of the pandemic, attempts were made
+          to make the store accessible to those affected by the lockdown;
+          however, the company still needed a more robust, easy-to-navigate, and
+          custom online ordering system which has since then blossomed into a
+          full-fledged store of its own.
         </div>
       </div>
       <kinesis-container
@@ -24,7 +28,7 @@
           axis="x"
           :maxX="10"
         >
-          <img src="/PGH_Anes.jpg" alt="" />
+          <img src="/Nesabel.jpg" alt="" />
         </kinesis-element>
         <kinesis-element
           :maxX="1"
@@ -42,19 +46,18 @@
           :strength="20"
           axis="x"
         >
-          They asked for a website that was primarily geared toward the public
-          where they can share the latest happenings and projects of the
-          department. Additionally, they also wanted a segment that only current
-          members and alumni could access, where they planned to share quizzes,
-          procedure and conference schedules, and the like.
+          The company needed a website that was easy to navigate and use, with
+          custom features that fit the current needs of the store. This included
+          a variety of options in branches, wholesale, or retail, a custom cart
+          and many, many more!
           <br />
           <br />
-          The front-end was made with Vue.js, the progressive Javascript
-          Framewowrk, while the back-end was made with Laravel, a
-          model-view-controller PHP framework. The design was made in close
-          coordination with the deparmtnet heads and their website team. After
-          thorough consultation and revisions, we settled on a design that was
-          clean, crisp, and accomplished all their goals and more!
+          The front-end was made with Liquid, the official template language by
+          Shopify, while the back-end was integrated with Shopify's current
+          platform. The design was made in close coordination with the owners.
+          After weeks of careful planning, a user-friendly and beautiful shop
+          was released to the public, and now serves thousands of orders per
+          month!
         </kinesis-element>
       </kinesis-container>
       <kinesis-container
@@ -72,7 +75,7 @@
           :strength="50"
           axis="x"
         >
-          <img src="/PGH_Anes_Admin.jpg" alt="PGH Anesthesiology Admin" />
+          <img src="/Nesabel_Products.jpg" alt="PGH Anesthesiology Admin" />
         </kinesis-element>
         <kinesis-element
           class="
@@ -89,13 +92,11 @@
           :strength="-30"
           axis="x"
         >
-          To keep up with a dynamic and ever-changing Department, it was
-          important that the contents of the website could be edited with ease.
-          Thus, we set out to create a custom content management system for the
-          client. A clear plan on the content they wish to publish and items
-          they wanted to have changed was first made, and then developed into a
-          beautiful, easy-to-navigate interface that could be easily taught to
-          future team members.
+          In order to meet the demands of the company and its customers, we set
+          out to build a customer-centric design that made checking out items
+          and making sales as easy and efficient as possible. This included a
+          color profile that matched the company's current theme, with good
+          contrast, and readable font on all devices.
         </kinesis-element>
       </kinesis-container>
       <kinesis-container event="scroll" class="my-32 lg:my-16 flex flex-wrap">
@@ -113,12 +114,12 @@
           axis="x"
         >
           <img
-            src="/Anes_admin_mobile.jpg"
+            src="/Nesabel_mobile_Products.jpg"
             alt="PGH Anesthesiology Admin Mobile Version"
             class="w-5/12 rounded-lg"
           />
           <img
-            src="/Anes_mobile.jpeg"
+            src="/Nesabel_mobile_Cart.jpg"
             alt="PGH Anesthesiology Mobile Version"
             class="w-5/12 rounded-lg"
           />
@@ -141,8 +142,8 @@
           axis="x"
         >
           As with all modern websites, mobile-responsiveness is a priority for
-          this website as well. The administrative side and public-facing sides
-          were designed to be able to adapt to all screen sizes, whether it be a
+          this website as well. The entire site and all pages were designed and
+          developed to be able to adapt to all screen sizes, whether it be a
           mobile phone, a tablet, or a desktop.
         </kinesis-element>
       </kinesis-container>

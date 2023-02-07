@@ -7,7 +7,7 @@
         </h1>
         <div class="my-8 text-center text-3xl">
           A <span class="font-light">world-class and modern website</span> for a
-          <span class="font-light"> world-class and modern department </span>.
+          <span class="font-light"> world-class and modern department</span>.
         </div>
         <div class="my-8 text-center text-2xl">
           The Department of Anesthesiology of the Philippine General Hospital
@@ -52,9 +52,9 @@
           <br />
           <br />
           The front-end was made with Vue.js, the progressive Javascript
-          Framewowrk, while the back-end was made with Laravel, a
+          Framework, while the back-end was made with Laravel, a
           model-view-controller PHP framework. The design was made in close
-          coordination with the deparmtnet heads and their website team. After
+          coordination with the department heads and their website team. After
           thorough consultation and revisions, we settled on a design that was
           clean, crisp, and accomplished all their goals and more!
         </kinesis-element>
@@ -71,7 +71,7 @@
             overflow-clip
             lg:order-last
           "
-          :strength="50"
+          :strength="-50"
           axis="x"
         >
           <img src="/PGH_Anes_Admin.jpg" alt="PGH Anesthesiology Admin" />
@@ -88,7 +88,7 @@
             h-fit
             text-lg text-center
           "
-          :strength="-30"
+          :strength="30"
           axis="x"
         >
           To keep up with a dynamic and ever-changing Department, it was
@@ -111,7 +111,7 @@
             my-4
             justify-center
           "
-          :strength="30"
+          :strength="-30"
           axis="x"
         >
           <img
@@ -139,7 +139,7 @@
             justify-center
             lg:justify-start
           "
-          :strength="-30"
+          :strength="30"
           axis="x"
         >
           As with all modern websites, mobile-responsiveness is a priority for
@@ -149,7 +149,7 @@
           <br />
           <br />
           This allowed members to access all their resources on the road, and
-          website administrators to change their website from the convenienve of
+          website administrators to change their website from the convenience of
           their mobile phones.
         </kinesis-element>
       </kinesis-container>
