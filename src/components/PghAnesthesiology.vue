@@ -21,7 +21,7 @@
         class="mb-8 flex flex-wrap justify-center"
       >
         <kinesis-element
-          class="lg:basis-1/2 rounded-lg drop-shadow-2xl overflow-clip"
+          class="lg:basis-1/2 rounded-lg drop-shadow-2xl overflow-clip my-4"
           :strength="-20"
           axis="x"
           :maxX="10"
@@ -70,6 +70,7 @@
             drop-shadow-2xl
             overflow-clip
             lg:order-last
+            my-4
           "
           :strength="-50"
           axis="x"

@@ -8,6 +8,8 @@
       text-center
       bg-neutral-900 bg-[url('/graph-paper.svg')]
       text-white
+      md:z-50
+      relative
     "
   >
     <div
@@ -46,13 +48,13 @@
         </a>
       </div>
     </div>
-    <div class="text-left mx-4 sm:mx-20 lg:mx-40">
+    <div class="text-left mx-4 sm:mx-20 lg:mx-40 max-w-screen-2xl">
       <div class="font-serif text-8xl my-2">
         <em>
           <VueWriter
-            :typeSpeed="70"
+            :typeSpeed="80"
             :caret="underscore"
-            :array="['Personal Space', 'Legacy', 'Website']"
+            :array="['Website', 'Legacy', 'Personal Space']"
           >
             Your
           </VueWriter>
@@ -64,8 +66,22 @@
         Let's Build Something Great
       </div>
     </div>
-    <div class="mb-4 w-full text-white/50 font-thin animate-pulse">
-      Scroll down to start
+    <div class="mb-8 w-full text-white/50 font-thin animate-pulse flex-row">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6 mx-auto animate-bounce"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3"
+        />
+      </svg>
+      <div>Scroll down to start</div>
     </div>
   </div>
 </template>
@@ -79,9 +95,9 @@ export default {
   data() {
     return {
       sections: [
-        { name: "Works", link: "Work" },
-        { name: "Me", link: "Me" },
-        { name: "Contact", link: "Contact" },
+        { name: "Portfolio", link: "Work" },
+        { name: "About Me", link: "Me" },
+        { name: "Contact", link: "Form" },
       ],
     };
   },

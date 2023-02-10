@@ -1,5 +1,8 @@
 <template>
-  <div class="grid place-content-center text-black h-fit pt-4 bg-slate-200">
+  <div
+    class="grid place-content-center text-black h-fit pt-4 bg-slate-200"
+    id="Form"
+  >
     <div class="grid text-center">
       <div
         class="h-full mt-10 font-sans font-semibold text-3xl break-words"
@@ -7,7 +10,11 @@
       >
         <h2>Ready to start your journey? Send me a message below!</h2>
       </div>
-      <div class="my-10 max-w-md mx-auto" data-aos="fade-right">
+      <div
+        class="my-10 max-w-md mx-auto font-light text-xl"
+        data-aos="fade-right"
+        data-aos-anchor-placement="center bottom"
+      >
         You can let me know what you need, your budget, and any special
         considerations, and I will get back to you within 1-3 working days with
         a quotation. Or you can just say hi! 👋
@@ -27,8 +34,8 @@
         "
         data-aos="fade-in"
         data-aos-delay="400"
-        data-aos-duration="700"
-        data-aos-anchor-placement="bottom bottom"
+        data-aos-duration="3000"
+        data-aos-anchor-placement="center bottom"
       >
         <label for="sender_name"
           >Name:
@@ -43,7 +50,7 @@
               caret-blue-800
             "
             name="sender_name"
-            placeholder="Enter name here..."
+            placeholder="JR Castor"
             v-model="sender_name"
         /></label>
         <label for="sender_email"
@@ -60,7 +67,7 @@
               caret-blue-800
             "
             name="email"
-            placeholder="Enter email here..."
+            placeholder="your@email.com"
         /></label>
         <label for="sender_contactnumber"
           >Contact number:
@@ -76,7 +83,7 @@
               caret-blue-800
             "
             name="contactnumber"
-            placeholder="Enter number here..."
+            placeholder="+6391700000000"
           />
         </label>
         <label for="message" class="row-span-3"

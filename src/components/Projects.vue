@@ -1,9 +1,13 @@
 <template>
-  <div class="min-h-screen text-center text-black overscroll-y-auto">
+  <div
+    class="min-h-screen text-black overscroll-y-auto max-w-screen-2xl mx-auto"
+  >
     <div class="mx-auto py-4">
-      <div class="my-4">
-        <h2 class="font-sans font-semibold text-3xl">Previous Works</h2>
-        <h3>A few of my previous projects!</h3>
+      <div class="mx-4 lg:mx-24 my-3 lg:my-8">
+        <h2 class="font-sans font-semibold text-6xl lg:text-8xl">
+          Previous Works
+        </h2>
+        <h3 class="text-3xl font-light">A few of my previous projects</h3>
       </div>
       <div
         id="project_wrapper"

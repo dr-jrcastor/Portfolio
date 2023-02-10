@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       sections: [
-        { name: "Works", link: "/#Work" },
+        { name: "Portfolio", link: "/#Work" },
         { name: "About Me", link: "/#Me" },
         { name: "Contact", link: "/#Contact" },
       ],
@@ -59,10 +59,10 @@ export default {
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
-  top: 36px;
+  left: 20px;
+  top: 20px;
   cursor: pointer;
-  z-index: 500;
+  z-index: 40;
 }
 .bm-burger-bars {
   background-color: #000;
@@ -105,7 +105,8 @@ export default {
 }
 
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
+  transition: 1s;
 }
 
 .bm-item-list {

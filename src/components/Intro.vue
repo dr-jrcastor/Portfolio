@@ -7,6 +7,8 @@
       grid grid-flow-col
       place-content-stretch
       py-4
+      max-w-screen-2xl
+      mx-auto
     "
   >
     <div class="p-4 h-full">
@@ -14,20 +16,21 @@
         class="
           grid grid-flow-col grid-cols-2
           gap-4
+          lg:gap-16
           max-w-5xl
           align-middle
           h-full
         "
       >
         <div class="col-span-2 md:col-span-1 h-auto self-center">
-          <span class="font-serif text-xl font-bold italic"
-            >Your space, your legacy, your website. </span
-          >Websites are for everyone, from large companies to solo
-          entrepreneurs, from photographers to physicians. In today’s digital
-          age, anyone who is anyone has their identity under the limelight in
-          their own personal space online. Stand out. Be different. Rise above
-          the competition. Click send me a message and start making your vision
-          a reality!
+          <div class="font-serif text-xl font-bold italic mb-1">
+            Your space, your legacy, your website.
+          </div>
+          Websites are for everyone, from large companies to solo entrepreneurs,
+          from photographers to physicians. In today’s digital age, anyone who
+          is anyone has their identity under the limelight in their own personal
+          space online. Stand out. Be different. Rise above the competition.
+          Click below and start making your vision a reality!
           <div>
             <button
               class="
@@ -47,9 +50,9 @@
                 duration-200
                 mt-4
               "
-              onclick="location.href='/#Contact'"
+              onclick="location.href='/#Form'"
             >
-              Send a message
+              Let's start with a "hello"!
             </button>
           </div>
         </div>
