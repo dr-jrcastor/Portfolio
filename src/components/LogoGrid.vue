@@ -13,7 +13,7 @@
       duration-300
     "
     data-aos="flip-up"
-    data-aos-anchor-placement="center bottom"
+    data-aos-anchor-placement="center center"
   >
     <img
       v-if="(image.loaded = true)"
