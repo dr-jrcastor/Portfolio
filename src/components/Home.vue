@@ -9,7 +9,7 @@
     <section class="" id="Work" data-aos="fade-in">
       <Projects />
     </section>
-    <section class="" id="Me">
+    <section class="overflow-x-hidden" id="Me">
       <AboutMe />
     </section>
     <section class="" id="Contact">

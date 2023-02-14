@@ -3,7 +3,7 @@
     class="grid place-content-center text-black h-fit pt-4 bg-slate-200"
     id="Form"
   >
-    <div class="grid text-center">
+    <div class="grid text-center px-4">
       <div
         class="h-full mt-10 font-sans font-semibold text-3xl break-words"
         data-aos="fade-down"

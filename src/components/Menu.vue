@@ -42,7 +42,7 @@ export default {
       sections: [
         { name: "Portfolio", link: "/#Work" },
         { name: "About Me", link: "/#Me" },
-        { name: "Contact", link: "/#Contact" },
+        { name: "Contact", link: "/#Form" },
       ],
     };
   },
